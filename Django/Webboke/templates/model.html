@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>boke</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/model.css"/>
+	<script type="text/javascript">
+	</script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="../static/js/vue.min.js" type="text/javascript" charset="utf-8"></script> -->
+	<script src="../static/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/data.js" type="text/javascript" charset="utf-8"></script>
+	{% block head %}
+	{% endblock %}
+</head>
+<body>
+    <div id="all">
+        <div id="top">
+			<ul class="list-inline">
+			    <li><a href="/get_python/" >Python</a></li>
+			    <li><a href="/get_java/" >Java</a></li>
+			    <li><a href="/get_c/" >C语言</a></li>
+			    <li><a href="/get_c_add/" >C++</a></li>
+			    <li><a href="/get_h5/" >h5/css/JS</a></li>
+			    <li><a href="/get_my/" >写博客</a></li>
+			</ul>
+        </div>
+
+        <div id="left_text">
+			<div id="news">
+				<h2>最新新闻</h2>
+				<div id="newslist">
+					<ul id="every_news">
+						{% block mainbody1 %}
+
+						{% endblock %}
+					</ul>
+					
+				</div>
+				<!-- <div id="find-bar">
+					<button>首&nbsp;&nbsp;&nbsp;&nbsp;页</button>
+					<button>上一页</button>
+					<button>下一页</button>
+					<button>尾&nbsp;&nbsp;&nbsp;&nbsp;页</button>
+					<button>共xxx页</button>
+				</div> -->
+				
+			</div>
+			<div id="articles">	
+				<h2>精华文章</h2>
+				<div id="articlesslist">
+					
+					     <ul id="every_text">
+							{% block mainbody2 %}
+							
+							{% endblock %}
+						</ul>  
+					
+
+					
+				</div>
+				<!-- <div id="find-bar">
+					<button>首&nbsp;&nbsp;&nbsp;&nbsp;页</button>
+					<button>上一页</button>
+					<button>下一页</button>
+					<button>尾&nbsp;&nbsp;&nbsp;&nbsp;页</button>
+					<button>共xxx页</button>
+				</div> -->
+			</div>
+			
+        </div>
+
+        <div id="center_text">
+			<div id="imgs_loop">
+				<img src="../static/imgs/3.jpg" id="img">
+			</div>
+			
+			<div id="laster_articles">
+				
+			</div>
+			
+        </div>
+
+        <div id="right_text">
+			<div id="announcement">
+				<h2>公告</h2>
+				<h3>
+					这只是个雏形，两天时间太短，暂时先这样，以后在慢慢完善
+				</h3>
+				
+			</div>
+			<div id="other">
+				<h2>其他</h2>
+				<h3>
+					还没想好放什么
+				</h3>
+			</div>
+        </div>
+
+        <div id="foot">
+			<tfoot>
+				123
+			</tfoot>
+        </div>
+
+    </div>
+</body>
+</html>

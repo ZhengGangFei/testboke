@@ -1,0 +1,150 @@
+h2{
+	text-align: center;
+}
+#top{
+	width: 100%;
+	height: 50px;
+	border: grey 1px solid;
+	background-color: gray;
+	margin: 0 auto;
+}
+#top li{
+	list-style: none;
+	padding: 0;
+	margin: 0 5%;
+	float: left;
+	display: block;
+	
+}
+#top li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid darkslategrey;
+	border-left: 1px solid darkslategrey;
+}
+
+#every_news li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-align: left;
+}
+
+#top li a:hover {
+	background:#146C9C; /* 变换背景色 */
+	color:#fff; /* 变换文字颜色 */
+}
+
+
+
+
+
+#foot{
+	width: 100%;
+	height: 4%;
+	background-color: #808080;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+
+#left_text{
+	float: left;
+	width: 25%;
+	height:800px;
+	margin: 20px;
+	/* border: #FF0000 1px solid; */
+	padding: 0;
+}
+#every_news li{
+	border: #5F9EA0 1px solid;
+	text-align: left;
+	margin-left: -9%;
+	margin-bottom: 10px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+#every_news li a:hover {
+	background:#146C9C; /* 变换背景色 */
+	color:#fff; /* 变换文字颜色 */
+}
+
+
+#news,#articles{
+	width: 100%;
+	height: 390px;
+	text-align: left;  
+	background-color: antiquewhite;
+	border: gainsboro 1px solid;
+	border-bottom: none;
+	
+	
+}
+
+
+#news h2{
+	color: red;
+}
+
+#newslist,#articlesslist{
+	width: 100%;
+	height: 300px;
+	overflow:auto;
+	
+}
+
+#find-bar{
+	width: 100%;
+	height: 40px;
+	/* background-color: cadetblue; */
+	margin: 3px auto;
+	text-align: center;
+}
+#center_text{
+	width: 50%;
+	height: 800px;
+	float: left;
+	border: #5F9EA0 1px solid;
+	margin: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#center_text #imgs_loop{
+	width: 100%;
+	height: 400px;
+	/* border: red 1px solid; */
+	float: left;
+}
+#center_text #imgs_loop img{
+	
+	width:100%;
+	height:100%;
+	max-height: 400px;
+
+}
+
+#center_text #laster_articles{
+	margin-top: 5px;
+	width: 100%;
+	height: 380px;
+	/* border: yellow 1px solid; */
+	float: left;
+}
+
+#right_text{
+	width: 15%;
+	height: 802px;
+	float: left;
+	/* border: #FF0000 1px solid; */
+	margin: 20px;
+}
+#right_text #announcement,#other{
+	width: 100%;
+	height: 400px;
+	border: #146C9C 1px solid;
+}
